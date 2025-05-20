@@ -1,0 +1,4 @@
+gym
+gym_sokoban
+matplotlib
+vllm==0.8.5

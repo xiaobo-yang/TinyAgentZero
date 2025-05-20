@@ -1,0 +1,152 @@
+# Build artifacts and binaries
+dist/
+build/
+out/
+target/
+*.exe
+*.dll
+*.so
+*.dylib
+*.class
+*.o
+*.obj
+
+# Package managers
+node_modules/
+bower_components/
+jspm_packages/
+package-lock.json
+yarn.lock
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp/
+.pnp.js
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+/env/
+/venv/
+/ENV/
+.env
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+.coverage
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+.pytest_cache/
+.coverage.*
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Java
+*.class
+*.log
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-workspace
+*.sublime-project
+.DS_Store
+Thumbs.db
+.directory
+*.iml
+*.ipr
+*.iws
+.factorypath
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+*.sqlite3
+logs/
+log/
+
+# Dependencies and environment
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.direnv
+
+# OS specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ML/AI specific
+*.pt
+*.pth
+*.h5
+*.ckpt
+*.pb
+checkpoints/
+wandb/
+runs/
+/data/
+datasets/
+/models/
+/tensorboard_log/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Compiled source
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Temporary files
+*.swp
+*.swo
+*~
+tmp/
+temp/
+
+# Generated files
+*.bak
+*.tmp
+
+# log
+outputs/
+exp/
+**/wandb_*
+
+# tmp
+**/*tmp*
+**/__pycache__/
+
+# large file
+/dataset/code
